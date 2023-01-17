@@ -1,0 +1,35 @@
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.about-me{
+    background-color: #2fe6a9;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    gap: 20px;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+.skills-container > div {
+    background-color: white;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 7px 10px #b3b3b3;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.skills-container > div > ul {
+    margin-left: 30px;
+    list-style: circle;
+}
+.skills-container > div > ul > li {
+    text-transform: capitalize;
+}
